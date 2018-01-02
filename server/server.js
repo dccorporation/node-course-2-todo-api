@@ -24,8 +24,9 @@ res.status(400).send(error);
 });
 
 
-});
 
+
+module.exports = {app};
 
 
 app.listen(3000, () => {
